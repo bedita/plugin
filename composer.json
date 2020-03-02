@@ -1,0 +1,23 @@
+{
+    "name": "bedita/plugin",
+    "description": "Plugin for BEdita4",
+    "type": "cakephp-plugin",
+    "require": {
+        "bedita/core": "*",
+        "bedita/api": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plugin\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}

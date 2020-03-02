@@ -1,2 +1,1 @@
-# plugin
-Plugin for BEdita4 Core
+# BEdita4 Core Plugin
